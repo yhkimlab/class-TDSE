@@ -34,6 +34,7 @@ num = np.argsort(w)
 
 #Make box & Visualize
 a = np.linspace(-Lx/2, Lx/2, ngx)
+a = a/1.89
 
 #Making Total figure
 for i in range(0,nstate):
